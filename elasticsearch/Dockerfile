@@ -1,7 +1,7 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.7.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.17.3
 MAINTAINER porcupine "lingbinmeng@hotmail.com"
 
-ENV ES_VERSION 8.7.0
+ENV ES_VERSION 8.17.3
 
 # copy plugins
 ADD data/elasticsearch-analysis-ik-$ES_VERSION.zip /tmp/data/
